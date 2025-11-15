@@ -1,0 +1,21 @@
+Object-Oriented Programming (OOP) in TypeScript is simply OOP with the added benefit of static typing. TypeScript gives you full OOP tools: classes, objects, interfaces, inheritance, access modifiers, abstract classes, polymorphism, and more.
+
+Branch name -> object_oriented_programming
+
+    => class and object 
+
+
+    | Modifier      | Accessible Inside Class | Subclass | Outside via Object | Can Change Value? |
+| ------------- | ----------------------- | -------- | ------------------ | ----------------- |
+| **public**    | ✔ yes                   | ✔ yes    | ✔ yes              | ✔ yes             |
+| **private**   | ✔ yes                   | ✖ no     | ✖ no               | ✔ yes             |
+| **protected** | ✔ yes                   | ✔ yes    | ✖ no               | ✔ yes             |
+| **readonly**  | ✔ yes                   | ✔ yes    | ✔ yes              | ✖ no (after init) |
+
+
+🧠 Summary (Very Short)
+Feature	Purpose	Example
+getter	Read private data	p.age
+setter	Write/validate private data	p.age = 22
+private field	Hide actual value	_age
+public access	Safe controlled access	via get/set
