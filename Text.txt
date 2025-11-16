@@ -1,0 +1,7 @@
+| Feature    | Primitive Types               | Non-Primitive Types         |
+| ---------- | ----------------------------- | --------------------------- |
+| Storage    | Often stored directly (stack) | Stored as references (heap) |
+| Size       | Fixed                         | Can grow or vary            |
+| Methods    | Usually none                  | Have methods & properties   |
+| Created by | Language                      | Programmer or library       |
+| Examples   | int, boolean, char            | String, ArrayList, objects  |
